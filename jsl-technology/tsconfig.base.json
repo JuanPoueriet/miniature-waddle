@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@jsl-technology/shared-ui": ["libs/shared/ui/src/index.ts"],
+      "@jsl-technology/shared-models": ["libs/shared/models/src/index.ts"],
+      "@jsl-technology/shared-util": ["libs/shared/util/src/index.ts"],
+      "@jsl-technology/backend-core": ["libs/backend/core/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
